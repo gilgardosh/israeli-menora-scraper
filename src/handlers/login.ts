@@ -23,7 +23,7 @@ export const login = async (
 
   await page.type('#id-num', creds.userID);
 
-  await page.type('#phone-num', creds.phoneNumber);
+  await page.type('#email-phone-num', creds.phoneNumber);
 
   await page.click(
     '#__next > div > div.Main__MainStyle-zzoc7s-0.eEjwjl > div.Login__LoginStyle-sc-1w2us3z-0.fMgtan > div > div > div > form > div.submit-btn > div > button'
